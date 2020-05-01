@@ -1,7 +1,7 @@
 var charIndex_left = -1;
 var stringLength_left = 0;
 var inputText_left;
-var refresh_time=1;//140
+var refresh_time=140;//140
 
 function writeContent_left(init) {
     if (init) {
