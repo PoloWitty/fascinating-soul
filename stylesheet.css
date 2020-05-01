@@ -1,0 +1,39 @@
+body
+{
+    width:100%;
+    height:100%;
+}
+#myContent_left
+{
+    position: absolute;
+    top: 10%;
+    left:10%;
+}
+#myContent_right
+{
+    position: absolute;
+    top: 10%;
+    left:55%;
+}
+img
+{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    width: 25%;
+    display: none;   
+}
+button#more
+{
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    display: none;   
+}
+button#say
+{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    display: none;   
+}

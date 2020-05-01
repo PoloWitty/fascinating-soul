@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Sister Zhuang</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="typing.js"></script>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body style="background-color: pink;">
+    <div id="myContent_left"></div>
+    <div id="contentToWrite_left" style="display: none;">
+        嘿！小姑凉，偶不对，小妹妹，新年好！<br/>
+        好像用错了时候，哈哈哈<br/>
+        无所谓啦，新的一岁里<br/>
+        祝愿你，<br/>
+        生活里有热汤和甜食<br/>
+        背包里有书本和远方<br/>
+        每身孤独都能拥抱共鸣<br/>
+        长夜里总有梦想发亮，秋收春耕<br/>
+        人海里常有良友相伴，长乐未央<br/>
+        我与春风皆过客，谁共明月赴长生<br/>
+        希望你能遇见一切美好的人和事<br/>
+        从此暗中有光<br/>
+        心中向阳<br/>
+        眼中有星辰<br/>
+        愿你一生努力<br/>
+        愿你一生被爱<br/>
+        想要的都拥有<br/>
+        得不到的都释怀<br/>
+        沧海桑田后依旧乘风破浪<br/>
+        尘埃落定后依旧炙热欢畅
+    </div>
+    <div id="myContent_right"></div>
+    <div id="contentToWrite_right" style="display: none;">
+        其实，<br/>
+        这些话，都是网上抄的<br/>
+        但是，<br/>
+        祝福是真的<br/>
+        只愿你被这世界温柔相待<br/>
+        岁岁年年，万喜万般宜。<br/>
+        希望所有俗套的祝福语都在你身上灵验<br/>
+        最后祝愿你<br/>
+        所求皆如愿<br/>
+        所行化坦途<br/>
+        多喜乐<br/>
+        长安宁
+    </div>
+    <button id="more" onclick="more()">Want more?</button>
+    <button id="say" onclick="say()">Want to say something?</button>
+    <a href="mailto" id="send" style="display:none"></a>
+    <img id="img" src="happybirthday.png" alt="HappyBirthday">   
+</div>       
+<audio src="初心依然.mp3" autoplay="autoplay" loop="loop" />
+<script type="text/javascript">
+    writeContent_left(true);
+    function more() {
+        let things_to_say=[
+            '旦逢良辰，顺颂时宜。',
+            '希望你的枕头柔软，也希望你的美梦圆满',
+            '愿你三冬暖，愿你春不寒，愿你天黑有灯，下雨有伞，愿你一路上，有良人相伴',
+            '其实哪里会有人喜欢孤独，不过是不喜欢失望，愿你遇到一个成熟的爱人，一辈子不用长大',
+'有人站在天空用孤独照顾群星\n\
+穿过洋流与思念断层等候重逢\n\
+有人在荒野跌跌撞撞，寻找捷径\n\
+迷路的旅人却将四季举过头顶\n\
+有人遁入最瑰丽梦境不敢清醒\n\
+山林里白鹿磨尖茸角妄图破冰\n\
+有人打捞水面下倒影，笑他平庸\n\
+敢用一生成全一场梦抵死从容',
+            '好啦，最后一句啦，送上一句俗套的祝福：',
+            '十八而立，汝已亭亭，无忧亦无惧。',
+            '好吧，这才是真的最后一句，和你送我的明信片呼应一下啦',
+'待空山新雨后\n\
+放一片小舟\n\
+载上无人问津的温柔\n\
+摆渡寻处去忘忧'
+        ]
+        for(let i=0;i<things_to_say.length;i++)
+        {
+            alert(things_to_say[i]);
+        }
+    }
+
+
+    function say() {
+        let mailContent=document.getElementById("send");
+        mailContent.href="mailto:1657624239@qq.com?body=我好喜欢好喜欢好喜欢你%2D%2D%2D%2D%0A的礼物%21%21%21%0d%0a%28哈哈哈%2C皮一下%28滑稽%2Ejpg%29%29"
+        mailContent.click();
+    }
+    </script>
+</body>
+</html>
