@@ -9,6 +9,7 @@ body
     top: 10%;
     left:10%;
 }
+@media(min-width:700px){
 #myContent_right
 {
     position: absolute;
@@ -36,4 +37,37 @@ button#say
     top: 70%;
     left: 55%;
     display: none;   
+}
+}
+@media(max-width:700px)
+{
+    
+    #myContent_right
+    {
+        position: absolute;
+        top: 65%;
+        left:10%;
+    }
+    img
+    {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        width: 45%;
+        display: none;   
+    }
+    button#more
+    {
+        position: absolute;
+        top: 100%;
+        left: 10%;
+        display: none;   
+    }
+    button#say
+    {
+        position: absolute;
+        top: 100%;
+        left: 45%;
+        display: none;   
+    }
 }
